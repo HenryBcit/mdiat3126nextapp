@@ -4,7 +4,7 @@ import styled, {css} from 'styled-components';
 const ButtonBox = styled.button`
   background-color:${props=>props.highlight === true ? "#FAD" : "#FFF"};
   color:#FFF;
-  padding:10px;
+  padding:7px;
   ${props=>props.highlight && css`
     margin:10px;
     padding:15px;
