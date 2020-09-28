@@ -74,7 +74,7 @@ const Menu = ({expand, onMenuSelect})=>{
       </DropDownBox>
     </DropDownMenu>
     <Expand expanded={expanded}>
-      <div onClick={()=>{
+      <div onClick={()=>{ 
         onMenuSelect("bg");
       }}>Change BG Color</div>
       <div onClick={()=>{
